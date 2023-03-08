@@ -1728,11 +1728,11 @@ ol {
 	margin-bottom: 26px;
 }
 
-.filter-widget .filter-catagories li {
+.filter-widget .filter-categories li {
 	list-style: none;
 }
 
-.filter-widget .filter-catagories li a {
+.filter-widget .filter-categories li a {
 	display: inline-block;
 	color: #636363;
 	font-size: 16px;
@@ -1838,7 +1838,7 @@ ol {
 }
 
 .filter-widget .filter-range-wrap .price-range .ui-slider-range {
-	background: #ebebeb;
+	background: #e7ab3c;
 	border-radius: 0;
 }
 
