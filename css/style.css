@@ -129,6 +129,8 @@ ol {
 	color: #636363;
 }
 
+
+
 .section-title h2 {
 	color: #252525;
 	font-size: 36px;
@@ -1264,6 +1266,11 @@ ol {
 	font-weight: 400;
 	color: #b2b2b2;
 	text-decoration: line-through;
+}
+
+.product-item :hover .product-price a {
+	color: #e7ab3c;
+	
 }
 
 /*---------------------
@@ -4309,4 +4316,61 @@ ol {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+}
+
+.about-heading {
+	margin: 12px 12px 24px 12px;
+	font-size: 48px;
+}
+
+/* Text annimation */
+.about-heading-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 24px;
+}
+
+.about-heading {
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	display: block;
+	border: 4px double rgba(255, 255, 255, .25);
+	border-width: 4px 0;
+	/* padding: 1.5em 0em; */
+	/* position: absolute;
+	top: 18%;
+	left: 50%; */
+	margin: 0 0 -12px 0;
+}
+.about-heading span {
+	font: 700 3em "Oswald", sans-serif;
+	letter-spacing: 0;
+	padding: 0.25em 0 0.325em;
+	margin: 0 auto;
+	text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+   /* Clip Background Image */
+	background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	-webkit-background-clip: text;
+	background-clip: text;
+   /* Animate Background Image */
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 80s linear infinite;
+   /* Activate hardware acceleration for smoother animations */
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+}
+
+.about-heading-wrapper div {
+	font-size: 2em;
+}
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+	0% {
+		background-position: 0% 50%;
+   }
+	100% {
+		background-position: 100% 50%;
+   }
 }
