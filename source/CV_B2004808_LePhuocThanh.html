@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Le Phuoc Thanh CV</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="./src/style.css" /> -->
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+    @media screen and (min-width: 767px) {
+      #app {
+        width: 1080px;
+      }
+    }
+
+    html {
+      font-size: 14px;
+    }
+
+    body {
+      font-family: "Be Vietnam Pro", sans-serif;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .tagLine {
+      display: block;
+    }
+
+    .wrap {
+      margin: 12px 0 12px 0;
+    }
+
+    .avatar {
+      width: 215px;
+      height: 215px;
+      background-size: cover;
+      background-position: center;
+      background-image: url("https://www.coindesk.com/resizer/J-DwnLiE-FCbYh4NnIOj7QVi0es=/arc-photo-coindesk/arc2-prod/public/B57EHRZLYBC4ZMCZKRNCRH54FE.jpg");
+      border-radius: 100%;
+    }
+
+    .single-line {
+      border: 1px solid black;
+      opacity: 1;
+      margin-top: 6px;
+      margin-bottom: 6px;
+    }
+
+    .double-line {
+      border-bottom: 2px solid black;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      padding-bottom: 3px;
+    }
+
+    .double-line span {
+      border-top: 1px solid black;
+      width: 100%;
+      display: inline-block;
+    }
+
+    .part-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .part-wrap h3 {
+      text-align: right;
+    }
+
+    .part-wrap .part-title {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .border {
+      max-width: fit-content;
+      line-height: 21px;
+      border-bottom: 1px solid #000;
+      border-left: 1px solid #000;
+      border-radius: 10px;
+      border-right: 1px solid #000;
+      border-top: 1px solid #000;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      padding: 0px 8px 0px;
+    }
+
+    .border:hover {
+      background: black;
+      color: white;
+      cursor: pointer;
+    }
+
+    .border p {
+      padding: 0 8px;
+    }
+
+    .skill h6 {
+      height: 40px;
+    }
+
+    .width-full {
+      background: white;
+      border: 2px solid black;
+      width: 100%;
+    }
+
+    .width-full a {
+      color: #000;
+    }
+
+    .social a {
+      width: 40px;
+      height: 40px;
+      border: 1px solid black;
+      border-radius: 100%;
+      display: flex;
+      margin: 6px;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    .social a i {
+      line-height: 40px;
+    }
+
+    button:hover,
+    button:hover a {
+      background: #000;
+      color: white;
+    }
+  </style>
+  <body>
+    <div id="app" class="container">
+      <!-- Start Header -->
+      <div class="header row g-0 pt-5">
+        <div class="tagLine h1 align-self-center col-md-8">
+          <span>CREATIVE DESIGNER</span>
+          <span
+            >PASSION AND
+            <u
+              ><i><strong>EXPERIENCE.</strong></i></u
+            ></span
+          >
+        </div>
+        <div
+          class="social h3 align-self-end col-md-4 d-flex justify-content-end align-items-center"
+        >
+          <a href=""><i class="fa-brands fa-instagram ml-3"></i></a>
+          <a href=""><i class="fa-brands fa-facebook ml-3"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin ml-3"></i></a>
+        </div>
+      </div>
+      <!-- End Header -->
+
+      <!-- Start Content -->
+      <div class="content row justify-content-between">
+        <!-- Start Personal -->
+        <div class="personal col-md-4 col">
+          <div class="wrap d-flex align-items-center flex-column">
+            <div class="avatar"></div>
+            <h4 class="name fw-bold pt-2 pb-2">Lê Phước Thành</h4>
+          </div>
+          <div class="sumary fw-light">
+            Motivated and detail-oriented professional with 5+ years of
+            experience in project management. Proven track record of delivering
+            successful projects on border and within budget. Strong communicator
+            and problem-solver with a passion for collaboration and teamwork.
+            Skilled in project planning, risk management, and stakeholder
+            engagement. Seeking a challenging role in a fast-paced environment
+            where I can continue to grow and make a positive impact.
+          </div>
+          <div class="wrap">
+            <hr class="single-line" />
+            <div class="row">
+              <span class="col fs-6 fw-bold">PROFESSION</span>
+              <span class="col text-end fs-6 fw-bold">UI DESIGNER</span>
+            </div>
+
+            <hr class="single-line" />
+            <div class="row">
+              <span class="col fs-6 fw-bold">DATE OF BIRTH </span>
+              <span class="col text-end fs-6 fw-bold">18 AUGUST 2002 </span>
+            </div>
+
+            <hr class="single-line" />
+            <div class="row">
+              <span class="col fs-6 fw-bold">EDUCATION</span>
+              <span class="col text-end fs-6 fw-bold">HIGHER EDUCATION</span>
+            </div>
+
+            <hr class="single-line" />
+          </div>
+          <button class="width-full fw-bold p-1">
+            <a
+              href="mailto:thanhb2004808@student.ctu.edu.vn"
+              class="text-decoration-none"
+              >SEND ME A MESSAGE</a
+            >
+          </button>
+        </div>
+        <!-- End Personal -->
+
+        <!-- Start Info -->
+        <div class="info col-md-8">
+          <div class="part-wrap experience">
+            <h3 class="h3 fw-bold">EXPERIENCE</h3>
+            <div class="double-line">
+              <span></span>
+            </div>
+            <div class="part-wrap-row">
+              <div class="pt-md-2 pb-md-2">
+                <h6 class="fw-semibold h5">Horizon Value Expert</h6>
+                <h6 class="fw-light h6">2021 — PRESENT UI DIRECTOR</h6>
+              </div>
+              <div class="fw-light">
+                Creating wireframe projects for innovative applications.
+                Improving customer relations and creating recruitment campaigns
+                for new positions. Working with a well-coordinated team as
+                remote work.
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="part-wrap">
+            <div class="pt-md-2 pb-md-2">
+              <h6 class="fw-semibold h5">Puento — Visual Concept</h6>
+              <h6 class="fw-light h6">2016 — 2021 SENIOR PRODUCT DESIGNER</h6>
+            </div>
+            <div class="fw-light">
+              Creating wireframe projects for innovative applications. Improving
+              customer relations and creating recruitment campaigns for new
+              positions. Working with a well-coordinated team as remote work.
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <!-- skills start -->
+            <div class="part-wrap-right col-md-6">
+              <!-- Education start -->
+              <div class="part-wrap education">
+                <h3 class="h3 fw-bold">EDUCATION</h3>
+                <div class="double-line">
+                  <span></span>
+                </div>
+
+                <!-- Glory Charter High School -->
+                <div class="part-wrap-row">
+                  <div class="pt-md-2 pb-md-2">
+                    <div class="row">
+                      <h6 class="fw-semibold h5 col-md-8">
+                        Glory Charter High School
+                      </h6>
+                      <h6 class="fw-light h6 border col-md-4 text-center">
+                        2014 — 2017
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="fw-light">
+                    Creating wireframe projects for innovative applications.
+                    Improving customer relations and creating recruitment
+                    campaigns for new positions. Working with a well-coordinated
+                    team as remote work.
+                  </div>
+                </div>
+
+                <hr />
+
+                <!-- Guli CE Academy -->
+                <div class="part-wrap-row">
+                  <div class="pt-md-2 pb-md-2">
+                    <div class="row">
+                      <h6 class="fw-semibold h5 col-md-8">Guli CE Academy</h6>
+                      <h6 class="fw-light h6 border col-md-4 text-center">
+                        2012 — 2014
+                      </h6>
+                    </div>
+                  </div>
+                  <div class="fw-light">
+                    College of marketing and promoting products on the Internet.
+                    School graduated with honors.
+                  </div>
+                </div>
+              </div>
+              <!-- Education end -->
+              <div class="part-wrap education">
+                <h3 class="h3 fw-bold">SKILLS</h3>
+                <div class="double-line">
+                  <span></span>
+                </div>
+                <div class="row skill">
+                  <div class="fw-bold h6 border col text-center mx-3">
+                    <p>Python</p>
+                  </div>
+                  <div class="fw-bold h6 border col text-center mx-3">
+                    <p>C</p>
+                  </div>
+                  <div class="fw-bold h6 border col text-center mx-3">
+                    <p>C++</p>
+                  </div>
+                  <div class="fw-bold h6 border col text-center mx-3">
+                    <p>JavaScript</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Skills end here -->
+            <div class="part-wrap-left col-md-6">
+              <!-- Education start -->
+              <div class="part-wrap education">
+                <h3 class="h3 fw-bold">HOBBY</h3>
+                <div class="double-line">
+                  <span></span>
+                </div>
+
+                <!-- Glory Charter High School -->
+                <div class="part-wrap-row">
+                  <div class="pt-md-2 pb-md-2"></div>
+                  <div class="fw-light">
+                    I am a person who likes challenges and undertakes the most
+                    advanced projects for learning and commitment.
+                  </div>
+                </div>
+              </div>
+              <!-- Education end -->
+            </div>
+          </div>
+        </div>
+
+        <!-- End Info -->
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
